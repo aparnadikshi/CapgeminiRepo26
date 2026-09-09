@@ -39,7 +39,7 @@ jobs:
 
 
       - name: Run Playwright tests
-        run: npx playwright test "9thSep/flight-e2e-generated.spec.ts"
+        run: npx playwright test "flight-e2e-generated.spec.ts"
 
 
       - name: Upload Playwright Report
