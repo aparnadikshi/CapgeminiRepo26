@@ -2,7 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
 
-  testDir: './9thSep',
+  testDir: './',
 
   reporter: [
     ['list'],
