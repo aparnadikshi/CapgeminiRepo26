@@ -35,10 +35,12 @@ jobs:
 
 
       - name: Install Playwright browsers
+        working-directory: 9thSep
         run: npx playwright install --with-deps
 
 
       - name: Run Playwright tests
+        working-directory: 9thSep
         run: npx playwright test "flight-e2e-generated.spec.ts"
 
 
