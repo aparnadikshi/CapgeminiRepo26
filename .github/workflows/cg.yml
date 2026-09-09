@@ -30,6 +30,7 @@ jobs:
 
 
       - name: Install dependencies
+        working-directory: 9thSep
         run: npm ci
 
 
