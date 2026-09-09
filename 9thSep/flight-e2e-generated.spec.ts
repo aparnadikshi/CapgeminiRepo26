@@ -74,7 +74,7 @@ async function readBody(page: any) {
   return (await page.locator('body').innerText()).toLowerCase();
 }
 
-// test.describe('Flight booking demo (aligned with docs/test-case-report.md)', () => {
+test.describe('Flight booking demo (aligned with docs/test-case-report.md)', () => {
   // test('TC-01 & TC-02: Homepage search panel visible and basic round-trip search', async ({ page }) => {
   //   await openFlightsTab(page);
 
@@ -230,5 +230,4 @@ async function readBody(page: any) {
   //   const bodyLarge = await readBody(page);
   //   expect(bodyLarge).toMatch(/maximum|exceed|limited to|cannot exceed|please reduce/i);
   // });
-// }
-// );
+});
